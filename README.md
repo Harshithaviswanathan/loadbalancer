@@ -35,7 +35,7 @@ func main() {
 
 	 servers.RunServers(5)
 }
-run this as go run main.go in one terminal
+run this as "C:\Program Files\Go\bin\go.exe" run main.go  in one terminal
 package main
 
 import (
@@ -73,5 +73,8 @@ func main() {
 
 	//  servers.RunServers(5)
 }
-run this as go run main.go in another terminal
+run this as "C:\Program Files\Go\bin\go.exe" run main.go in another terminal
+for specific method run, & "C:\Program Files\Go\bin\go.exe" run main.go --algo=roundrobin
 
+Run this in the browser to see the loadbalancer working visually.
+http://localhost:7667/loadbalancer
